@@ -10,7 +10,7 @@ function (callback) {
 var image = new Image()
 image.src = prompt('Enter an image URL')
 image.onerror = function () {
-  image.src = './default.svg'
+  image.src = './cmslemon.png'
 }
 
 // Ensure canvas shape has same dimensions as image
